@@ -5,10 +5,10 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "TerminessNerdFont-Regular:pixelsize=15:antialias=true:autohint=true";
+static char *font = "TerminessNerdFont-Regular:pixelsize=16:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-	"Noto Color Emoji:style=Regular:pixelsize=18:antialias=true:autohint=true",
+	"Noto Color Emoji:style=Regular:pixelsize=16:autohint=true",
 };
 static int borderpx = 15;
 
