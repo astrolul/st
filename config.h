@@ -5,12 +5,12 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "TerminessNerdFont-Regular:pixelsize=18:antialias=true:autohint=true";
+static char *font = "TerminessNerdFont-Regular:pixelsize=19:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
 	"Noto Color Emoji:style=Regular:pixelsize=18:antialias=true:autohint=true",
 };
-static int borderpx = 1;
+static int borderpx = 15;
 
 /*
  * What program is execed by st depends of these precedence rules:
