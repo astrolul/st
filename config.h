@@ -5,10 +5,10 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "FiraCode Nerd Font:style=Regular:pixelsize=30:autohint=true";
+static char *font = "FiraCode Nerd Font:style=Regular:pixelsize=25:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-	"Noto Color Emoji:style=Regular:pixelsize=30:autohint=true",
+	"Noto Color Emoji:style=Regular:pixelsize=25:autohint=true",
 };
 static int borderpx = 20;
 
