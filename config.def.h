@@ -19,8 +19,8 @@ static char *font2 = "Noto Color Emoji:style=Regular:pixelsize=" TOSTRING(FONT_S
 Spare fonts
 static char *font2[] = {
 	"Noto Color Emoji:style=Regular:pixelsize=25:autohint=true",
-};
-static int borderpx = 20; */
+}; */
+static int borderpx = 20;
 
 /*
  * What program is execed by st depends of these precedence rules:
