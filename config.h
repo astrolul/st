@@ -14,12 +14,10 @@
 #define TOSTRING(x) STRINGIFY(x)
 
 static char *font = "FiraCode Nerd Font:style=Regular:pixelsize=" TOSTRING(FONT_SIZE) ":autohint=true";
-static char *font2[] = "Noto Color Emoji:style=Regular:pixelsize=" TOSTRING(FONT_SIZE) ":autohint=true";
-/* static char *font = "FiraCode Nerd Font:style=Regular:pixelsize=25:autohint=true";
-Spare fonts
+/* Spare fonts */
 static char *font2[] = {
-	"Noto Color Emoji:style=Regular:pixelsize=25:autohint=true",
-}; */
+	"Noto Color Emoji:style=Regular:pixelsize=" TOSTRING(FONT_SIZE) ":autohint=true",
+};
 static int borderpx = 20;
 
 /*
