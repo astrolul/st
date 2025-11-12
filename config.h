@@ -5,7 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-/* 25 */
+#ifndef BORDER_SIZE
+#define BORDER_SIZE 20
+#endif
 #ifndef FONT_SIZE
 #define FONT_SIZE 12
 #endif
@@ -18,7 +20,7 @@ static char *font = "FiraCode Nerd Font:style=Regular:pixelsize=" TOSTRING(FONT_
 static char *font2[] = {
 	"Noto Color Emoji:style=Regular:pixelsize=" TOSTRING(FONT_SIZE) ":autohint=true",
 };
-static int borderpx = 20;
+static int borderpx = BORDER_SIZE;
 
 /*
  * What program is execed by st depends of these precedence rules:
